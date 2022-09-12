@@ -1,0 +1,41 @@
+.info__phyz-page .personal__manadger .register__yr {
+  display: none;
+}
+.info__phyz-page .record__block {
+  margin-top: 109px;
+}
+.info__phyz-page .record__block-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  margin-left: 7px;
+  color: #1A2F3F;
+}
+.info__phyz-page .personal__manadger {
+  margin-top: 109px;
+  margin-left: 77px;
+}
+.info__phyz-page .personal__manadger-tell {
+  letter-spacing: -0.01em;
+}
+.info__phyz-page .info__block {
+  margin-top: 58px;
+  margin-left: 75px;
+}
+.info__phyz-page .info__phyz-wrapper {
+  position: relative;
+}
+.info__phyz-page .personal__manadger-btn {
+  position: absolute;
+  top: 401px;
+  left: 77px;
+  margin-left: 0px;
+}
+.info__phyz-page .contact__wrapper {
+  padding-top: 205px;
+  padding-bottom: 113px;
+}
+/*# sourceMappingURL=info__phyz.css.map */

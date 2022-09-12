@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/logIn.scss","components/logIn.css"],"names":[],"mappings":"AACI;EACI,qBAAA;ACAR","file":"components/logIn.css","sourcesContent":[".logIn-page{\r\n    .contact__wrapper{\r\n        padding-bottom: 112px;\r\n    }\r\n}",".logIn-page .contact__wrapper {\n  padding-bottom: 112px;\n}"]}

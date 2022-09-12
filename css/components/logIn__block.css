@@ -1,0 +1,52 @@
+.forgot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: -7px;
+  margin-bottom: 6px;
+}
+.forgot__link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #337D5A;
+}
+
+.logIn__registration-block {
+  margin-top: 6px;
+  margin-bottom: -9px;
+}
+
+.registration__link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 32px;
+  /* or 246% */
+  padding-bottom: 2px;
+  border-bottom: 1px solid #337D5A;
+  letter-spacing: 0px;
+  color: #337D5A;
+}
+
+.logIn__password-title {
+  margin-bottom: 44px;
+}
+.logIn__password-title h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #1A2F3F;
+  margin-left: 2px;
+}
+/*# sourceMappingURL=logIn__block.css.map */

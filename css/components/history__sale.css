@@ -1,0 +1,56 @@
+.page__history-sale .register__yr {
+  display: none;
+}
+.page__history-sale .history__order-wrapper {
+  position: relative;
+}
+.page__history-sale .personal__manadger-tell {
+  letter-spacing: -0.017em;
+}
+.page__history-sale .personal__manadger-btn {
+  display: none;
+}
+.page__history-sale .record__block {
+  margin-top: 110px;
+}
+.page__history-sale .personal__manadger {
+  margin-top: 109px;
+  margin-left: 80px;
+}
+.page__history-sale .record__order-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0em;
+  color: #1A2F3F;
+}
+.page__history-sale .history__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 32px;
+  padding-left: 840px;
+  padding-top: 15px;
+  letter-spacing: -0.03em;
+  color: #1A2F3F;
+}
+.page__history-sale .contact__wrapper {
+  padding-bottom: 113px;
+}
+.page__history-sale .header__top-title {
+  position: absolute;
+  right: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #337D5A;
+  letter-spacing: -0.1px;
+  right: 8px;
+  top: 117px;
+}
+/*# sourceMappingURL=history__sale.css.map */

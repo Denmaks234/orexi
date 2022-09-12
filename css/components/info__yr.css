@@ -1,0 +1,44 @@
+.info__yr-page .personal__manadger .register__yr {
+  display: none;
+}
+.info__yr-page .record__block {
+  margin-top: 109px;
+}
+.info__yr-page .record__block-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: 0em;
+  margin-left: 7px;
+  color: #1A2F3F;
+}
+.info__yr-page .personal__manadger {
+  margin-top: 109px;
+  margin-left: 82px;
+}
+.info__yr-page .personal__manadger-tell {
+  letter-spacing: -0.01em;
+}
+.info__yr-page .info__block {
+  margin-top: 58px;
+  margin-left: 79px;
+}
+.info__yr-page .info__phyz-wrapper {
+  position: relative;
+}
+.info__yr-page .personal__manadger-btn {
+  position: absolute;
+  top: 463px;
+  left: 82px;
+  margin-left: 0px;
+}
+.info__yr-page .info__block-wrapper .registration__photo {
+  margin-top: 33px;
+}
+.info__yr-page .contact__wrapper {
+  padding-top: 266px;
+  padding-bottom: 112px;
+}
+/*# sourceMappingURL=info__yr.css.map */

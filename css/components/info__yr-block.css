@@ -1,0 +1,11 @@
+.info__block-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.info__block-wrapper .registration__photo {
+  background: url("../../img/info__photo.png");
+  margin-left: 6px;
+  margin-top: 3px;
+}
+/*# sourceMappingURL=info__yr-block.css.map */

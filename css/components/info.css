@@ -1,0 +1,140 @@
+@charset "UTF-8";
+.info__wrapper {
+  padding: 0 66px;
+  padding-bottom: 66px;
+}
+
+.info__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.info__item {
+  width: 192px;
+  height: 155px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: -1px;
+}
+
+.info__item:nth-child(2) {
+  width: 82px;
+  margin-left: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.info__item:nth-child(2) .info__subtitle {
+  margin-left: 7px;
+  margin-top: 5px;
+}
+
+.info__item:nth-child(3) {
+  margin-left: 63px;
+  width: 124px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.info__item:nth-child(3) .info__subtitle {
+  width: 317px;
+  margin-left: -5px;
+  letter-spacing: -0.01px;
+  margin-top: 6px;
+}
+
+.info__item:nth-child(4) {
+  margin-right: 0px;
+}
+
+.info__item::after {
+  content: "Га";
+  right: 0px;
+  position: absolute;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  top: 14px;
+  color: #1A2F3F;
+}
+
+.info__item:last-child .info__subtitle {
+  width: 150px;
+  margin-left: 26px;
+  letter-spacing: 0.01em;
+}
+.info__item:last-child .info__title {
+  margin-left: 3px;
+}
+
+.info__item:last-child::after {
+  content: "%";
+  right: 25px;
+  position: absolute;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.05em;
+  top: 14px;
+  color: #1A2F3F;
+}
+
+.info__title h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.01em;
+  color: #1A2F3F;
+  margin: 0;
+}
+
+.info__subtitle {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 4px;
+  line-height: 21px;
+  width: 110px;
+  text-align: center;
+  margin-top: 6px;
+  letter-spacing: 0.02em;
+  color: #1A2F3F;
+}
+/*# sourceMappingURL=info.css.map */

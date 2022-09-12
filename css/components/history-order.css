@@ -1,0 +1,45 @@
+.page__history-order .register__yr {
+  display: none;
+}
+.page__history-order .record__order-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0em;
+  color: #1A2F3F;
+}
+.page__history-order .personal__manadger-tell {
+  letter-spacing: -0.017em;
+}
+.page__history-order .personal__manadger-btn {
+  display: none;
+}
+.page__history-order .record__block {
+  margin-top: 110px;
+}
+.page__history-order .personal__manadger {
+  margin-top: 109px;
+  margin-left: 82px;
+}
+.page__history-order .contact__wrapper {
+  padding-bottom: 112px;
+}
+
+.history__order-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.table__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+/*# sourceMappingURL=history-order.css.map */

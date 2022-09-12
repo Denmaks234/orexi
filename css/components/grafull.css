@@ -1,0 +1,43 @@
+.page-grafull .title__video {
+  background: url("../../img/optiveTitle-video-bg.png");
+  height: 520px;
+  background-position: center;
+}
+.page-grafull video {
+  display: none;
+}
+.page-grafull .video__play-btn {
+  display: none;
+}
+.page-grafull .content {
+  margin-top: 80px;
+  margin-left: 5px;
+}
+.page-grafull .title__video-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 32px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  margin-bottom: 29px;
+  margin-top: 2px;
+}
+.page-grafull .title__video-subtitle {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  letter-spacing: -0.004em;
+  margin-left: -3px;
+}
+.page-grafull .contact__wrapper {
+  padding-top: 30px;
+  padding-bottom: 112px;
+}
+/*# sourceMappingURL=grafull.css.map */

@@ -2,7 +2,7 @@
   display: none;
 }
 .page__history-transition .personal__manadger-tell {
-  letter-spacing: -0.017em;
+  letter-spacing: 0em;
 }
 .page__history-transition .personal__manadger-btn {
   display: none;
@@ -12,7 +12,7 @@
 }
 .page__history-transition .personal__manadger {
   margin-top: 109px;
-  margin-left: 80px;
+  margin-left: 79px;
 }
 .page__history-transition .record__order-title {
   font-family: "Raleway";
@@ -20,7 +20,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 32px;
-  letter-spacing: 0em;
+  letter-spacing: -0.01em;
   color: #1A2F3F;
 }
 .page__history-transition .history__text {
@@ -29,13 +29,13 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 32px;
-  padding-left: 840px;
+  padding-left: 839px;
   padding-top: 15px;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.01em;
   color: #1A2F3F;
 }
 .page__history-transition .contact__wrapper {
-  padding-bottom: 113px;
+  padding-bottom: 112px;
 }
 
 .history__order-wrapper {

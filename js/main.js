@@ -15,6 +15,17 @@ const playBtn1 = document.querySelectorAll(".play1");
 const playBtn2 = document.querySelectorAll(".gallery-play");
 const InputOrder = document.querySelectorAll('.info__form input[name="input-order"]');
 const blockOrder = document.querySelectorAll('.registration__block-togle');
+const burger = document.querySelector(".menu__img");
+const close = document.querySelector(".close");
+const menu = document.querySelector(".list");
+burger.addEventListener("click", function () {
+  menu.style.marginTop = 0 + "px";
+  close.style.opacity = 1;
+});
+close.addEventListener("click", function () {
+  menu.style.marginTop = -447 + "px";
+  close.style.opacity = 0;
+});
 InputOrder.forEach(item => item.addEventListener('change', function () {
   blockOrder.forEach(item => {
     item.classList.remove('active');

@@ -62,6 +62,9 @@ body {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
+.header__top .burger__img {
+  display: none;
+}
 
 .header__top-title {
   font-family: "Montserrat";
@@ -200,6 +203,9 @@ body {
 .header__center .logo {
   margin-left: 8px;
 }
+.header__center .close {
+  display: none;
+}
 
 .cart {
   position: relative;
@@ -222,7 +228,38 @@ body {
   position: absolute;
   left: 12px;
 }
+.cart .close {
+  display: none;
+}
 
+@media screen and (max-width: 1220px) {
+  .header__top-title {
+    margin-left: -322px;
+  }
+  .header__top .burger__img {
+    display: block;
+    margin-left: -137px;
+  }
+  .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 86px;
+    padding-right: 84px;
+    padding-top: 15px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: center;
+    width: 1024px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+}
 .social {
   margin-left: 8px;
   display: -webkit-box;
@@ -288,6 +325,16 @@ body {
   margin-right: 6px;
 }
 
+@media screen and (max-width: 1220px) {
+  .tell {
+    margin-left: 78px;
+    width: 266px;
+  }
+}
+.nav .close {
+  opacity: 0;
+}
+
 .list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -321,6 +368,64 @@ body {
   margin-right: 4px;
 }
 
+@media screen and (max-width: 1220px) {
+  .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 86px;
+    padding-right: 84px;
+    padding-top: 15px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: flex-start;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+    padding-right: 0px;
+    position: absolute;
+    padding-left: 0px;
+    height: 315px;
+    margin-top: -447px;
+    padding-top: 105px;
+    z-index: 100;
+    top: 0px;
+    background: #337D5A;
+    -webkit-transition: all ease 1s;
+    -o-transition: all ease 1s;
+    transition: all ease 1s;
+  }
+  .list__item {
+    padding-bottom: 25px;
+  }
+  .list__item a {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    color: white;
+  }
+  .nav .close {
+    opacity: 0;
+    z-index: 100;
+    position: absolute;
+    width: 25px;
+    right: 100px;
+    top: 50px;
+    -webkit-transition: all ease 1s;
+    -o-transition: all ease 1s;
+    transition: all ease 1s;
+  }
+}
 .arrows {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -532,10 +637,27 @@ body {
   width: 229px;
 }
 
+.contact__right iframe {
+  width: 739px;
+  height: 520px;
+}
+
 .contact__left {
   margin-top: -6px;
 }
 
+@media screen and (max-width: 1220px) {
+  .contact__right {
+    width: 500px;
+  }
+  .contact__right iframe {
+    width: 496px;
+    height: 405px;
+  }
+  .contact__left {
+    padding-left: 9px;
+  }
+}
 .footer {
   position: relative;
   padding-bottom: 41px;
@@ -630,6 +752,14 @@ body {
   margin-right: 87px;
 }
 
+@media screen and (max-width: 1220px) {
+  .footer-main .list {
+    display: none;
+  }
+  .footer__copyright {
+    width: 1010px;
+  }
+}
 .news {
   margin-left: 14px;
 }
@@ -788,6 +918,7 @@ body {
 .news__item-btn {
   background: none;
   border: none;
+  cursor: pointer;
 }
 .news__item-btn:hover {
   color: #337D5A;
@@ -843,6 +974,73 @@ body {
   margin-left: -15px;
 }
 
+@media screen and (max-width: 1220px) {
+  .news .arrows {
+    display: none;
+  }
+  .news__items {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin-left: 40px;
+  }
+  .news__item {
+    margin-bottom: 35px;
+  }
+  .news__item-img img {
+    width: 290px;
+  }
+  .news__item-img video {
+    width: 290px;
+    height: 192px;
+  }
+  .news__item .data {
+    padding-left: 0;
+  }
+  .news__item-title {
+    padding-left: 0;
+    font-size: 14px;
+    width: 264px;
+  }
+  .news__item-title2 {
+    font-size: 14px;
+    width: 293px;
+  }
+  .news__item-subtitle {
+    padding-left: 0;
+    width: 299px;
+    font-size: 12px;
+  }
+  .news__item-group {
+    padding-left: 0;
+  }
+  .news__item-group img {
+    position: absolute;
+    left: 51px;
+    top: -5px;
+  }
+  .news__item-btn {
+    font-size: 90%;
+  }
+  .news__inner {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .news__title {
+    text-align: center;
+  }
+  .news__subtitle {
+    margin-left: 0px;
+  }
+  .news .mySwiper {
+    width: 800px;
+    margin: 0;
+    left: 60px;
+    bottom: 7px;
+  }
+}
 .title__video {
   position: relative;
   height: 600px;
@@ -1594,6 +1792,19 @@ body {
   width: 100%;
 }
 
+@media screen and (max-width: 1220px) {
+  .catalog__items {
+    width: 1024px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .catalog__wrapper {
+    margin-top: 45px;
+    margin-left: 10px;
+    width: 1024px;
+  }
+}
 .main__video {
   position: relative;
   height: 740px;
@@ -1687,6 +1898,22 @@ body {
   margin-left: -13px;
 }
 
+@media screen and (max-width: 1220px) {
+  .main__video-title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+    margin-top: -12px;
+    width: 1000px;
+    margin-left: -13px;
+  }
+}
 .product__wrapper {
   padding: 87px 10px 100px 0;
 }
@@ -1902,6 +2129,19 @@ body {
   opacity: 0.05;
 }
 
+@media screen and (max-width: 1220px) {
+  .products__items {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .products__item {
+    margin-right: 50px;
+    margin-bottom: 30px;
+  }
+}
 .about__producer {
   margin-top: 214px;
   margin-left: 12px;
@@ -2022,6 +2262,91 @@ body {
   position: relative;
 }
 
+@media screen and (max-width: 1220px) {
+  .about__producer-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .about__producer .arrows {
+    position: absolute;
+    top: 315px;
+    left: -2px;
+    padding-left: 19px;
+    padding-right: 1px;
+    top: 389px;
+    left: 70px;
+    z-index: 10;
+    padding-bottom: 10px;
+    padding-top: 0px;
+  }
+  .about__producer .arrows .swiper-button-next {
+    display: block;
+    right: 20px;
+    top: 15px;
+  }
+  .about__producer .arrows .swiper-button-prev {
+    display: block;
+    top: 15px;
+    left: -6px;
+  }
+  .about__producer .arrows__item img {
+    width: 30px;
+    height: 26px;
+  }
+  .about__producer-title {
+    text-align: center;
+  }
+  .about__producer-subtitle {
+    margin-top: 25px;
+    text-align: center;
+    width: 802px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.12px;
+    color: З;
+    margin-left: 0px;
+  }
+  .about__producer-subtitle2 {
+    width: 780px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .about__producer-btn {
+    margin-left: 311px;
+  }
+  .about__producer .mySwiper2 {
+    width: 850px;
+    height: 430px;
+    right: 13px;
+    bottom: 24px;
+    position: relative;
+  }
+  .about__producer-left {
+    margin-top: -150px;
+  }
+  .about__producer-right .news__video {
+    width: 681px;
+    height: 347px;
+    margin-left: 70px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    margin-top: 100px;
+  }
+  .about__producer-right .play1 {
+    position: absolute;
+    top: 55%;
+    z-index: 1;
+    left: 47%;
+  }
+}
 .info__wrapper {
   padding: 0 66px;
   padding-bottom: 66px;
@@ -5073,7 +5398,7 @@ select {
 }
 
 .registration__page .contact__wrapper {
-  padding-top: 200px;
+  padding-top: 202px;
   padding-bottom: 113px;
 }
 
@@ -5108,7 +5433,7 @@ select {
   font-size: 17px;
   line-height: 32px;
   color: #1A2F3F;
-  letter-spacing: -0.026em;
+  letter-spacing: 0em;
   margin-left: 2px;
 }
 .registration__block-subtitle span {
@@ -5128,7 +5453,7 @@ select {
   font-size: 15px;
   width: 177px;
   padding-left: 34px;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.01em;
   line-height: 17px;
   padding-top: 18px;
   color: #1A2F3F;
@@ -5137,7 +5462,7 @@ select {
 .registration__block-tab:nth-child(2) {
   margin-left: 30px;
   padding-top: 16px;
-  letter-spacing: -0.07em;
+  letter-spacing: -0.03em;
   padding-bottom: 11px;
 }
 .registration__block-tab.active {
@@ -5153,7 +5478,7 @@ select {
   font-size: 17px;
   line-height: 32px;
   color: #1A2F3F;
-  letter-spacing: -0.076em;
+  letter-spacing: 0em;
   margin-left: 2px;
   margin-top: 32px;
   margin-bottom: 21px;
@@ -5165,10 +5490,10 @@ select {
   font-size: 17px;
   line-height: 32px;
   color: #1A2F3F;
-  letter-spacing: -0.026em;
+  letter-spacing: 0em;
   margin-left: 2px;
-  margin-top: 32px;
-  margin-bottom: 21px;
+  margin-top: 33px;
+  margin-bottom: 19px;
 }
 .registration__block-input {
   width: 500px;
@@ -5301,7 +5626,7 @@ select {
   font-size: 13px;
   line-height: 32px;
   letter-spacing: 0em;
-  margin-left: -1px;
+  margin-left: 3px;
   color: #337D5A;
 }
 
@@ -5347,8 +5672,8 @@ input[type=file] {
   font-weight: 600;
   font-size: 13px;
   line-height: 17px;
-  margin-top: 4px;
-  margin-left: 4px;
+  margin-top: 3px;
+  margin-left: 0px;
   letter-spacing: -0.3px;
   color: #FFFFFF;
 }
@@ -5368,7 +5693,7 @@ input[type=file] {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
-  width: 15px;
+  width: 16px;
   height: 15px;
 }
 
@@ -5377,7 +5702,7 @@ input[type=file] {
   -ms-flex-align: center;
   align-items: center;
   padding-left: 2px;
-  margin-top: 10px;
+  margin-top: 11px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5390,6 +5715,7 @@ input[type=file] {
   line-height: 32px;
   letter-spacing: 0.01em;
   color: #8A8A8A;
+  margin-top: 0px;
   margin-left: 9px;
 }
 
@@ -5401,7 +5727,7 @@ input[type=file] {
 }
 
 .registration__right .registration__block-agree-mt {
-  margin-top: -8px;
+  margin-top: -5px;
 }
 
 .registration__block-subtitle4 {
@@ -5436,7 +5762,7 @@ input[type=file] {
 }
 
 .record__page .contact__wrapper {
-  padding-top: 211px;
+  padding-top: 212px;
   padding-bottom: 112px;
 }
 
@@ -5543,7 +5869,7 @@ input[type=file] {
   font-weight: 500;
   font-size: 16px;
   line-height: 32px;
-  letter-spacing: 0.01em;
+  letter-spacing: 0em;
   color: #1A2F3F;
   width: 163px;
   margin-top: -3px;
@@ -5555,7 +5881,7 @@ input[type=file] {
   font-weight: 500;
   font-size: 16px;
   line-height: 32px;
-  letter-spacing: 0.01em;
+  letter-spacing: 0em;
   color: #1A2F3F;
   width: 194px;
   margin-top: 8px;
@@ -5580,7 +5906,7 @@ input[type=file] {
 
 .record__phyz-page .contact__wrapper {
   padding-top: 215px;
-  padding-bottom: 113px;
+  padding-bottom: 112px;
 }
 .record__phyz-page .register__block1 {
   display: none;
@@ -5645,6 +5971,7 @@ input[type=file] {
 }
 .personal__manadger .register__yr {
   display: block;
+  margin-left: -2px;
 }
 .personal__manadger .register__yr .registration__block-subtitle {
   font-family: "Montserrat";
@@ -5653,9 +5980,9 @@ input[type=file] {
   font-size: 17px;
   line-height: 32px;
   color: #1A2F3F;
-  letter-spacing: -0.4px;
+  letter-spacing: 0.2px;
   margin-bottom: 17px;
-  margin-left: 0;
+  margin-left: 2;
 }
 .personal__manadger .register__yr .registration__block-subtitle3 {
   font-family: "Montserrat";
@@ -5664,7 +5991,7 @@ input[type=file] {
   font-size: 17px;
   line-height: 32px;
   color: #1A2F3F;
-  letter-spacing: -0.035em;
+  letter-spacing: 0.02em;
   margin-bottom: 19.5px;
   margin-top: -0.5px;
 }
@@ -5698,7 +6025,7 @@ input[type=file] {
   margin-left: 3px;
 }
 .password__change-page .contact__wrapper {
-  padding-bottom: 111px;
+  padding-bottom: 113px;
   padding-top: 201px;
 }
 
@@ -5733,7 +6060,7 @@ input[type=file] {
   border: 0.5px solid rgba(0, 0, 0, 0.15);
   margin-bottom: 11px;
   outline: none;
-  padding-left: 11px;
+  padding-left: 14px;
 }
 
 .password__input::-webkit-input-placeholder {
@@ -6004,7 +6331,7 @@ input[type=file] {
   line-height: 32px;
   letter-spacing: 0.01em;
   color: #1A2F3F;
-  margin-bottom: 21px;
+  margin-bottom: 20px;
 }
 
 .repair__block {
@@ -6211,7 +6538,7 @@ input[type=file] {
 .table .data {
   padding-left: 29px;
   padding-bottom: 4px;
-  letter-spacing: -0.04em;
+  letter-spacing: 0em;
 }
 
 .table tr:nth-child(even) {
@@ -6257,12 +6584,13 @@ input[type=file] {
 .status {
   padding-left: 6px;
   padding-bottom: 3px;
-  letter-spacing: -0.04em;
+  letter-spacing: 0em;
 }
 
 .table .nomer {
   padding-bottom: 4px;
   padding-right: 8px;
+  letter-spacing: -0.01em;
 }
 
 .history__order-title {
@@ -6363,7 +6691,7 @@ input[type=file] {
   display: none;
 }
 .page__history-transition .personal__manadger-tell {
-  letter-spacing: -0.017em;
+  letter-spacing: 0em;
 }
 .page__history-transition .personal__manadger-btn {
   display: none;
@@ -6373,7 +6701,7 @@ input[type=file] {
 }
 .page__history-transition .personal__manadger {
   margin-top: 109px;
-  margin-left: 80px;
+  margin-left: 79px;
 }
 .page__history-transition .record__order-title {
   font-family: "Raleway";
@@ -6381,7 +6709,7 @@ input[type=file] {
   font-weight: 700;
   font-size: 18px;
   line-height: 32px;
-  letter-spacing: 0em;
+  letter-spacing: -0.01em;
   color: #1A2F3F;
 }
 .page__history-transition .history__text {
@@ -6390,13 +6718,13 @@ input[type=file] {
   font-weight: 700;
   font-size: 14px;
   line-height: 32px;
-  padding-left: 840px;
+  padding-left: 839px;
   padding-top: 15px;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.01em;
   color: #1A2F3F;
 }
 .page__history-transition .contact__wrapper {
-  padding-bottom: 113px;
+  padding-bottom: 112px;
 }
 
 .history__order-wrapper {
@@ -6458,7 +6786,7 @@ input[type=file] {
   padding-right: 22px;
 }
 .header__history-transition .history__order-title:nth-child(1)::after {
-  right: 6px;
+  right: 8px;
 }
 .header__history-transition .history__order-title:nth-child(2) {
   width: 119px;
@@ -6466,7 +6794,7 @@ input[type=file] {
   padding-right: 36px;
 }
 .header__history-transition .history__order-title:nth-child(2)::after {
-  right: 18px;
+  right: 23px;
 }
 .header__history-transition .history__order-title:nth-child(3) {
   width: 209px;
@@ -6479,6 +6807,7 @@ input[type=file] {
 
 .historyTransition__table-content .data {
   padding-left: 33px;
+  letter-spacing: 0.01em;
 }
 .historyTransition__table-content .status {
   padding-left: 260px;
@@ -6779,6 +7108,9 @@ input[type=file] {
 .logIn-page .contact__wrapper {
   padding-bottom: 112px;
 }
+.logIn-page .password__wrapper {
+  padding-top: 110px;
+}
 
 .forgot {
   display: -webkit-box;
@@ -6819,7 +7151,7 @@ input[type=file] {
 }
 
 .logIn__password-title {
-  margin-bottom: 44px;
+  margin-bottom: 41px;
 }
 .logIn__password-title h1 {
   font-family: "Raleway";
@@ -6850,10 +7182,10 @@ input[type=file] {
 }
 .cart-page .personal__manadger {
   margin-top: 107px;
-  margin-left: 192px;
+  margin-left: 190px;
 }
 .cart-page .personal__manadger-tell {
-  letter-spacing: -0.02em;
+  letter-spacing: 0.01em;
 }
 .cart-page .info__block {
   margin-top: 58px;
@@ -6970,6 +7302,7 @@ input[type=file] {
 }
 .cart-page .history__price {
   padding-left: 1px;
+  padding-bottom: 6px;
 }
 .cart-page .amount {
   padding-left: 97px;
@@ -6979,7 +7312,7 @@ input[type=file] {
 }
 .cart-page .history__order-title:nth-child(3) {
   width: 209px;
-  padding-right: 28px;
+  padding-right: 29px;
   letter-spacing: -0.01em;
 }
 .cart-page .history__order-title:nth-child(3):after {
@@ -6995,7 +7328,7 @@ input[type=file] {
 .cart-page .history__order-title:last-child {
   width: 132px;
   letter-spacing: -0.015em;
-  right: 0px;
+  right: 2px;
   padding-right: -7px;
 }
 .cart-page .history__order-title:nth-child(4):after {
@@ -7009,8 +7342,8 @@ input[type=file] {
   top: 30px;
 }
 .cart-page .history__price1 {
-  padding-left: 13px;
-  padding-bottom: 4px;
+  padding-left: 10px;
+  padding-bottom: 7px;
 }
 .cart-page .history__price2 {
   padding-bottom: 7px;
@@ -7091,6 +7424,8 @@ input[type=file] {
   font-size: 14px;
   line-height: 32px;
   color: #337D5A;
+  margin-top: 5px;
+  margin-left: 2px;
 }
 .cart-page .cart__button-issue {
   background: #337D5A;
@@ -7177,9 +7512,9 @@ input[type=file] {
 }
 
 .require-order-block .registration__block-input2 {
-  margin-bottom: 11px;
+  margin-bottom: 10px;
   position: relative;
-  margin-top: 1px;
+  margin-top: 3px;
 }
 .require-order-block .registration__block-input2 input {
   padding-left: 0px;
@@ -7234,6 +7569,10 @@ input[type=file] {
   color: #1A2F3F;
   letter-spacing: -0.6px;
 }
+.require-order-block .contact__wrapper {
+  padding-top: 213px;
+  padding-bottom: 113px;
+}
 .require-order-block .registration__block-button {
   width: 246px;
   margin-top: 22px;
@@ -7287,9 +7626,9 @@ input[type=file] {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  margin-top: 36px;
+  margin-top: 35px;
   margin-bottom: -32px;
-  margin-right: 23px;
+  margin-right: 24px;
 }
 .require-order-block .price h1 {
   font-family: "Raleway";
@@ -7334,7 +7673,7 @@ input[type=file] {
 }
 .require-order-block .history__order-title:nth-child(2) {
   width: 10px;
-  padding-left: 91px;
+  padding-left: 89px;
 }
 .require-order-block .history__order-title:nth-child(2):after {
   content: "";
@@ -7394,7 +7733,7 @@ input[type=file] {
   padding-left: 1px;
 }
 .require-order-block .amount {
-  padding-left: 97px;
+  padding-left: 95px;
 }
 .require-order-block .amount2 {
   padding-bottom: 10px;
@@ -7417,7 +7756,7 @@ input[type=file] {
 .require-order-block .history__order-title:last-child {
   width: 132px;
   letter-spacing: -0.015em;
-  right: 0px;
+  right: 3px;
   padding-right: -7px;
 }
 .require-order-block .history__order-title:nth-child(4):after {
@@ -7431,7 +7770,7 @@ input[type=file] {
   top: 30px;
 }
 .require-order-block .history__price1 {
-  padding-left: 13px;
+  padding-left: 9px;
   padding-bottom: 4px;
 }
 .require-order-block .history__price2 {
@@ -7589,7 +7928,8 @@ input[type=file] {
   font-size: 17px;
   line-height: 32px;
   color: #1A2F3F;
-  letter-spacing: -0.3px;
+  letter-spacing: 0.01px;
+  margin-bottom: 17px;
 }
 .require-order-block .require-order-block:last-child .input__text {
   font-family: "Montserrat";
@@ -7643,7 +7983,7 @@ input[type=file] {
 }
 
 .registration__block-input2:last-child {
-  margin-top: -2px;
+  margin-top: 0px;
 }
 
 .input__text {
